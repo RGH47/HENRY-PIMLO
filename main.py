@@ -8,7 +8,7 @@ st.subheader('Rigoberto Godoy Hernández')
 
 
 # Importamos df CSV
-df = pd.read_csv(r'C:\Users\alita\Desktop\RGH\HENRY\PI\MLO\ENV1\pi1\movies_dataset.csv')
+df = pd.read_csv(r'\movies_dataset.csv')
 
 # Los valores nulos de los campos revenue, budget deben ser rellenados por el número 0
 df = df.fillna({"budget": 0, "revenue": 0})
