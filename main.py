@@ -36,7 +36,7 @@ df['return'] = df['revenue'].div(df['budget'])
 df = df.fillna({"return": 0})
 
 # Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,vote_count,poster_path y homepage.
-df.drop(['video', 'imdb_id', 'adult', 'original_title', 'vote_count', 'poster_path', 'homepage'], axis = 1, inplace=True)
+# df.drop(['video', 'imdb_id', 'adult', 'original_title', 'vote_count', 'poster_path', 'homepage'], axis = 1, inplace=True)
 
 
 # ----------------FUNCION 1.- peliculas_mes(mes)   ------------------------------------------------
